@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Global custom styles previously in App.jsx */
+
+:root {
+  --accent-color: #00A9FF;
+  --accent-color-glow: rgba(0, 169, 255, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-mono, nav, h3 {
+  font-family: 'Inter', sans-serif;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: var(--accent-color);
+  margin: 16px auto 0;
+}
+
+.section-title-white::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: var(--accent-color);
+  margin: 16px auto 0;
+}
+
+.animate-ping {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1 }
+  50% { opacity: 0 }
+}
+
+@keyframes aurora {
+  from { background-position: 50% 50%, 50% 50% }
+  to { background-position: 350% 50%, 350% 50% }
+}
+.bg-hero-aurora {
+  background-image: radial-gradient(at 20% 70%, hsla(202, 100%, 70%, 0.15) 0px, transparent 50%),
+                    radial-gradient(at 80% 30%, hsla(202, 100%, 60%, 0.15) 0px, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
+  animation: aurora 15s linear infinite;
+}
+
+.project-card {
+  transition: transform 0.3s ease;
+}
+.project-card:hover {
+  transform: rotateY(1deg) rotateX(1deg) scale(1.02);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.skills-section {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.1) 1px, transparent 0);
+  background-size: 2rem 2rem;
+}
