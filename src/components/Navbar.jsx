@@ -2,6 +2,7 @@ import{ useState, useEffect, useRef } from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { MenuIcon, XIcon } from "../icons/icons";
+import VLogo from '../assets/V.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -104,7 +105,7 @@ function Navbar() {
             onClick={(e) => handleLinkClick(e, "hero")}
             className="text-xl border-2 border-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-white transition-colors duration-300 flex-shrink-0 z-20"
           >
-            <img src="./src/assets/V.png" alt="logo" />
+            <img src={VLogo} alt="logo" />
           </a>
 
           <nav
@@ -229,3 +230,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
