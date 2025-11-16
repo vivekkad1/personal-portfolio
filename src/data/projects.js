@@ -1,5 +1,5 @@
 import Hangman from "../assets/Hangman.png";
-import WeatherWatchIndia from "../assets/WeatherWatchIndia.png";
+import WeatherWatchIndia from "../assets/WeatherwatchIndia.png";
 
 export const projects = [
   {
@@ -21,6 +21,7 @@ export const projects = [
     imageUrl: WeatherWatchIndia,
   },
 ];
+
 
 
 
