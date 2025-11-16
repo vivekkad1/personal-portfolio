@@ -1,3 +1,6 @@
+import Hangman from "../assets/Hangman.png";
+import WeatherWatchIndia from "../assets/WeatherWatchIndia.png";
+
 export const projects = [
   {
     title: "Hangman Game",
@@ -6,7 +9,7 @@ export const projects = [
     tags: ["React.js", "Tailwind CSS"],
     liveUrl: "https://golden-sherbet-626d3c.netlify.app/",
     githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/hangman-game",
-    imageUrl: "../assets/Hangman.png",
+    imageUrl: {Hangman},
   },
   {
     title: "Weather Watch India",
@@ -15,7 +18,8 @@ export const projects = [
     tags: ["React.js", "API"],
     liveUrl: "https://genuine-starburst-e1a652.netlify.app/",
     githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/weather-watch-india",
-    imageUrl: "../assets/WeatherWatchIndia.png",
+    imageUrl: {WeatherWatchIndia},
   },
 ];
+
 
