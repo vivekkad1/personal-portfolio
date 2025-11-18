@@ -1,5 +1,6 @@
 import Hangman from "../assets/Hangman.png";
 import WeatherWatchIndia from "../assets/WeatherwatchIndia.png";
+import Restaurant from "../assets/Restaurant.png";
 
 export const projects = [
   {
@@ -15,12 +16,22 @@ export const projects = [
     title: "Weather Watch India",
     description:
       "Weather Watch India is a responsive web app built with React that provides real-time weather updates for cities across India. It displays temperature, humidity, wind speed, and conditions using live API data in a clean, user-friendly interface.",
-    tags: ["React.js", "API"],
+    tags: ["React.js", "Restful API"],
     liveUrl: "https://genuine-starburst-e1a652.netlify.app/",
     githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/weather-watch-india",
     imageUrl: WeatherWatchIndia,
   },
+  {
+    title: "Restaurant",
+    description:
+      "Weather Watch India is a responsive web app built with React that provides real-time weather updates for cities across India. It displays temperature, humidity, wind speed, and conditions using live API data in a clean, user-friendly interface.",
+    tags: ["React.js", "Tailwind CSS"],
+    liveUrl: "https://vocal-gecko-4ff66f.netlify.app/#home",
+    githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/Restaurant",
+    imageUrl: Restaurant,
+  },
 ];
+
 
 
 
