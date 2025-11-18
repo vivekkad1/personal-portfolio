@@ -1,5 +1,6 @@
 import { useState, useEffect} from "react";
 import ParticleBackground from "./ParticleBackground";
+import Resume from "../resume/Vivek.pdf";
 
 function Hero() {
   const originalText =
@@ -54,7 +55,7 @@ function Hero() {
             View My Work
           </a>
           <a
-            href="../resume/Vivek.pdf"
+            href={Resume}
             download="Vivek.pdf"
             className="inline-block border border-[var(--accent-color)] text-[var(--accent-color)] font-mono font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[var(--accent-color)] hover:text-black transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
           >
@@ -67,4 +68,5 @@ function Hero() {
 };
 
 export default Hero;
+
 
