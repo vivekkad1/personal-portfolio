@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { MenuIcon, XIcon } from "../icons/icons";
 import VLogo from '../assets/V.png';
+import Resume from "../resume/Vivek.pdf";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -142,7 +143,7 @@ function Navbar() {
           <div className="flex items-center space-x-4">
             <div className="hidden md:flex items-center space-x-4">
               <a
-                href="../resume/Vivek.pdf"
+                href={Resume}
                 download="Vivek.pdf"
                 className="font-mono text-sm border border-white/50 px-4 py-2 rounded-md hover:bg-white/90 hover:text-black transition-colors"
               >
@@ -230,5 +231,6 @@ function Navbar() {
 }
 
 export default Navbar;
+
 
 
