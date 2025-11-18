@@ -142,7 +142,7 @@ function Navbar() {
           <div className="flex items-center space-x-4">
             <div className="hidden md:flex items-center space-x-4">
               <a
-                href="./src/resume/Vivek.pdf"
+                href="../resume/Vivek.pdf"
                 download="Vivek.pdf"
                 className="font-mono text-sm border border-white/50 px-4 py-2 rounded-md hover:bg-white/90 hover:text-black transition-colors"
               >
@@ -230,4 +230,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
 
