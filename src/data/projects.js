@@ -1,17 +1,8 @@
-import Hangman from "../assets/Hangman.png";
 import WeatherWatchIndia from "../assets/WeatherwatchIndia.png";
+import Hangman from "../assets/Hangman.png";
 import Restaurant from "../assets/Restaurant.png";
 
 export const projects = [
-  {
-    title: "Hangman Game",
-    description:
-      "Hangman is a fun, responsive word-guessing game built with React and Tailwind CSS. Players guess letters to find the hidden word while avoiding too many wrong attempts. It features a clean UI, smooth interactions, and works seamlessly across all devices.",
-    tags: ["React.js", "Tailwind CSS"],
-    liveUrl: "https://golden-sherbet-626d3c.netlify.app/",
-    githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/hangman-game",
-    imageUrl: Hangman,
-  },
   {
     title: "Weather Watch India",
     description:
@@ -20,6 +11,15 @@ export const projects = [
     liveUrl: "https://genuine-starburst-e1a652.netlify.app/",
     githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/weather-watch-india",
     imageUrl: WeatherWatchIndia,
+  },
+  {
+    title: "Hangman Game",
+    description:
+      "Hangman is a fun, responsive word-guessing game built with React and Tailwind CSS. Players guess letters to find the hidden word while avoiding too many wrong attempts. It features a clean UI, smooth interactions, and works seamlessly across all devices.",
+    tags: ["React.js", "Tailwind CSS"],
+    liveUrl: "https://golden-sherbet-626d3c.netlify.app/",
+    githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/hangman-game",
+    imageUrl: Hangman,
   },
   {
     title: "Restaurant",
@@ -31,6 +31,7 @@ export const projects = [
     imageUrl: Restaurant,
   },
 ];
+
 
 
 
