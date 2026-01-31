@@ -4,7 +4,7 @@ import Resume from "../resume/Vivek.pdf";
 
 function Hero() {
   const originalText =
-    "A frontend developer specialized in building fast, scalable and engaging applications with modern technologies like React.";
+    "A frontend developer specialized in building fast, scalable and engaging applications with modern technology React.";
   const [typedText, setTypedText] = useState("");
 
   useEffect(() => {
@@ -68,5 +68,6 @@ function Hero() {
 };
 
 export default Hero;
+
 
 
