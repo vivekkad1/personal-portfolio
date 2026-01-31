@@ -35,18 +35,14 @@ function Contact() {
     <section
       ref={sectionRef}
       id="contact"
-      className={`min-h-screen flex items-center py-20z bg-gray-100 text-black transition-all duration-1000 ease-in-out transform ${
+      className={`flex items-center py-10 bg-gray-100 text-black transition-all duration-1000 ease-in-out transform ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 section-title">
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 section-title">
           Let's Connect
         </h2>
-        <p className="text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-12 text-gray-600">
-          I'm open to new opportunities. Feel free to reach out for
-          collaborations or just to say hello!
-        </p>
         <div className="max-w-md mx-auto bg-gray-800 border border-gray-700 rounded-lg p-6 shadow-lg">
           <p className="font-mono text-left text-gray-400">
             <span className="text-[var(--accent-color)] mr-2">&gt;</span>{" "}
