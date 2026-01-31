@@ -52,11 +52,11 @@ const Projects = () => {
       }`}
     >
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center section-title">
+        <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-10 text-center section-title">
           Featured Work
         </h2>
 
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-3xl mx-auto">
           <div className="relative" style={{ perspective: "1000px" }}>
             <div className="overflow-hidden relative rounded-lg shadow-2xl">
               <div
@@ -89,7 +89,7 @@ const Projects = () => {
             </button>
           </div>
 
-          <div className="flex justify-center items-center mt-6 space-x-2">
+          <div className="flex justify-center items-center mt-4 space-x-2">
             {projects.map((_, i) => (
               <button
                 key={`project-dot-${i}`}
@@ -103,7 +103,7 @@ const Projects = () => {
             ))}
           </div>
 
-          <div className="mt-8 text-center bg-white p-6 rounded-lg border border-gray-200 shadow-md">
+          <div className="mt-4 text-center bg-white p-6 rounded-lg border border-gray-200 shadow-md">
             <h3 className="text-xl sm:text-2xl font-bold font-mono mb-2 text-gray-800">
               {projects[current].title}
             </h3>
