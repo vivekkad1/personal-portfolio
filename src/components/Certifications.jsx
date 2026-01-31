@@ -36,7 +36,7 @@ const Certifications = () => {
     <section
       ref={sectionRef}
       id="certifications"
-      className={`min-h-screen flex items-center py-20 bg-black text-white transition-all duration-1000 ease-in-out transform ${
+      className={`flex items-center py-20 bg-black text-white transition-all duration-1000 ease-in-out transform ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
