@@ -27,7 +27,7 @@ function ScrollToTopButton() {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-5 right-5 bg-gray-900 text-[var(--accent-color)] border border-[var(--accent-color)] rounded-full p-3 shadow-lg hover:bg-[var(--accent-color)] hover:text-black focus:outline-none transition-all duration-300 ${
+      className={`fixed bottom-3 right-5 bg-gray-900 text-[var(--accent-color)] border border-[var(--accent-color)] rounded-full p-3 shadow-lg hover:bg-[var(--accent-color)] hover:text-black focus:outline-none transition-all duration-300 ${
         isVisible ? "opacity-100 scale-100" : "opacity-0 scale-50"
       }`}
     >
@@ -37,3 +37,4 @@ function ScrollToTopButton() {
 };
 
 export default ScrollToTopButton;
+
