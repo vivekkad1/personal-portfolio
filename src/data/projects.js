@@ -8,7 +8,7 @@ export const projects = [
     title: "BharatTrips",
     description:
       "BharatTrips is a modern, high-performance travel booking platform designed for seamless travel planning. Whether you're flying across the country, booking a luxury hotel, or hopping on a bus, BharatTrips provides a unified and intuitive experience for all your travel needs.",
-    tags: ["React.js", "JavaScript", "TailwindCSS", "MaterialUI(MUI)", "Redux Toolkit", "React Router 6"],
+    tags: ["React.js", "JavaScript", "TailwindCSS", "MaterialUI", "Redux Toolkit", "React Router 6"],
     liveUrl: "https://cheerful-crostata-7dd856.netlify.app/",
     githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/BharatTrips",
     imageUrl: BharatTrips,
@@ -41,6 +41,7 @@ export const projects = [
     imageUrl: Restaurant,
   },
 ];
+
 
 
 
