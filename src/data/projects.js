@@ -1,3 +1,4 @@
+import JobTrackr from "../assets/JobTrackr.png";
 import BharatTrips from "../assets/BharatTrips.png";
 import WeatherWatchIndia from "../assets/WeatherwatchIndia.png";
 import Hangman from "../assets/Hangman.png";
@@ -5,10 +6,19 @@ import Restaurant from "../assets/Restaurant.png";
 
 export const projects = [
   {
+    title: "JobTrackr",
+    description:
+      "JobTrackr is a simple productivity app designed to help job seekers organize and manage their job applications. It lets you track positions you’ve applied for, store company details, monitor interview stages, and set reminders for follow-ups. The goal is to keep your job search structured and prevent missed opportunities during the hiring process.",
+    tags: ["React.js", "JavaScript", "TailwindCSS", "MaterialUI", "Chart.js", "React Hook Form", "Redux Toolkit", "React Router", "LocalStorage"],
+    liveUrl: "https://visionary-valkyrie-57f2d2.netlify.app/login",
+    githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/JobTrackr",
+    imageUrl: JobTrackr,
+  },
+  {
     title: "BharatTrips",
     description:
       "BharatTrips is a modern, high-performance travel booking platform designed for seamless travel planning. Whether you're flying across the country, booking a luxury hotel, or hopping on a bus, BharatTrips provides a unified and intuitive experience for all your travel needs.",
-    tags: ["React.js", "JavaScript", "TailwindCSS", "MaterialUI", "Redux Toolkit", "React Router 6"],
+    tags: ["React.js", "JavaScript", "TailwindCSS", "MaterialUI", "Redux Toolkit", "React Router"],
     liveUrl: "https://cheerful-crostata-7dd856.netlify.app/",
     githubUrl: "https://github.com/vivekkad1/React-projects/tree/main/BharatTrips",
     imageUrl: BharatTrips,
